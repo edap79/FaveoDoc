@@ -1,0 +1,2364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ClientService Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ClientService" class="dashAnchor"></a>
+    <a title="ClientService Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Faveo Docs</a></p>
+        <p class="header-right"><a href="https://github.com/gferrand/FaveoApp"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Faveo Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ClientService Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AboutCell.html">AboutCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AboutViewController.html">AboutViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddLocationViewController.html">AddLocationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddPaymentViewController.html">AddPaymentViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddPhotoViewController.html">AddPhotoViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddressCell.html">AddressCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddressViewController.html">AddressViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseMapOverlayView.html">BaseMapOverlayView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseViewController.html">BaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BottomBarItem.html">BottomBarItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cache.html">Cache</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cache/CacheStatic.html">– CacheStatic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CenterMapOverlay.html">CenterMapOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ClientService.html">ClientService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CompleteInfoViewController.html">CompleteInfoViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContactInfoViewController.html">ContactInfoViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreditCardViewController.html">CreditCardViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeckViewController.html">DeckViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EmptyStateView.html">EmptyStateView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ErrorView.html">ErrorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FacebookHandler.html">FacebookHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ForgotPasswordViewController.html">ForgotPasswordViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HelperHoursView.html">HelperHoursView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HistoryCell.html">HistoryCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HistoryViewController.html">HistoryViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HomeDetailView.html">HomeDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HomeViewController.html">HomeViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JobDetailCell.html">JobDetailCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JobDetailHeaderView.html">JobDetailHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JobDetailViewController.html">JobDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoadingIndicatorView.html">LoadingIndicatorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoadingView.html">LoadingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationTypeView.html">LocationTypeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewController.html">LoginViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapSearchCell.html">MapSearchCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapSearchView.html">MapSearchView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MenuCell.html">MenuCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MenuViewController.html">MenuViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoInternetView.html">NoInternetView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationView.html">NotificationView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderConfirmationView.html">OrderConfirmationView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PartnerDetailCell.html">PartnerDetailCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PartnerDetailHeaderView.html">PartnerDetailHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PartnerDetailViewController.html">PartnerDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PartnerProfileViewController.html">PartnerProfileViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentCell.html">PaymentCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentViewController.html">PaymentViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PrivacyViewController.html">PrivacyViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProfileViewController.html">ProfileViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RegisterViewController.html">RegisterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResponseSkeleton.html">ResponseSkeleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ReviewView.html">ReviewView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Router.html">Router</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScheduleServicesView.html">ScheduleServicesView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScheduleView.html">ScheduleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SetHelpersCell.html">SetHelpersCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SetHelpersHeaderView.html">SetHelpersHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SetHelpersViewController.html">SetHelpersViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SettingsViewController.html">SettingsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Static.html">Static</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Static/StaticStruct.html">– StaticStruct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TLView.html">TLView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TLView/Metrics.html">– Metrics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TLViewController.html">TLViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TLViewController/Metrics.html">– Metrics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TermsViewController.html">TermsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VSTextField.html">VSTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalkthoughView2.html">WalkthoughView2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalkthroughView.html">WalkthroughView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalkthroughViewController.html">WalkthroughViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WebImageView.html">WebImageView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo8BoldFontSS">BoldFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo15DefaultFontSizeV12CoreGraphics7CGFloat">DefaultFontSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo17GoogleServicesKeySS">GoogleServicesKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo13LargeFontSizeV12CoreGraphics7CGFloat">LargeFontSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo9LightFontSS">LightFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo10MediumFontSS">MediumFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo14MediumFontSizeV12CoreGraphics7CGFloat">MediumFontSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo19MediumLargeFontSizeV12CoreGraphics7CGFloat">MediumLargeFontSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo12NavTitleFontSS">NavTitleFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo12NavTitleSizeV12CoreGraphics7CGFloat">NavTitleSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo5PROMOSd">PROMO</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo11RegularFontSS">RegularFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo13SmallFontSizeV12CoreGraphics7CGFloat">SmallFontSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo20StripePublishableKeySS">StripePublishableKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo10XLFontSizeV12CoreGraphics7CGFloat">XLFontSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo11XXLFontSizeV12CoreGraphics7CGFloat">XXLFontSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo4hostSS">host</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo15kTagLoadingViewSi">kTagLoadingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v5Faveo18kTagNoInternetViewSi">kTagNoInternetView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/EmptyState.html">EmptyState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/JobStatus.html">JobStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LoadingIndicatorState.html">LoadingIndicatorState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NoInternetResultType.html">NoInternetResultType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ScheduleServicesType.html">ScheduleServicesType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TextFieldFormatting.html">TextFieldFormatting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDate.html">NSDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo15CGRectSetHeightFTVSC6CGRect1hV12CoreGraphics7CGFloat_S0_">CGRectSetHeight(_:h:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo12CGRectSetPosFTVSC6CGRect1xV12CoreGraphics7CGFloat1yS2__S0_">CGRectSetPos(_:x:y:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo13CGRectSetSizeFTVSC6CGRect1wV12CoreGraphics7CGFloat1hS2__S0_">CGRectSetSize(_:w:h:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo14CGRectSetWidthFTVSC6CGRect1wV12CoreGraphics7CGFloat_S0_">CGRectSetWidth(_:w:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo10CGRectSetXFTVSC6CGRect1xV12CoreGraphics7CGFloat_S0_">CGRectSetX(_:x:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo10CGRectSetYFTVSC6CGRect1yV12CoreGraphics7CGFloat_S0_">CGRectSetY(_:y:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo9RGBACOLORFTV12CoreGraphics7CGFloat5greenS1_4blueS1_5alphaS1__CSo7UIColor">RGBACOLOR(_:green:blue:alpha:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo8RGBCOLORFTV12CoreGraphics7CGFloat5greenS1_4blueS1__CSo7UIColor">RGBCOLOR(_:green:blue:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo5delayFTSd7closureFT_T__T_">delay(_:closure:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo21getMajorSystemVersionFT_Si">getMajorSystemVersion()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo10iconAtTypeFSSSS">iconAtType(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo6logoutFT_T_">logout()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo6logoutFSbT_">logout(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo9showAlertFTSS4textSS_T_">showAlert(_:text:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo9showAlertFTSS4textSS8delegateGSqPSo19UIAlertViewDelegate__17cancelButtonTitleGSqSS_16otherButtonTitleGSqSS__T_">showAlert(_:text:delegate:cancelButtonTitle:otherButtonTitle:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo17showAlertWithDataFTSS4textSS8delegateGSqPSo19UIAlertViewDelegate__17cancelButtonTitleGSqSS_16otherButtonTitleGSqSS_4dataGSqPs9AnyObject___T_">showAlertWithData(_:text:delegate:cancelButtonTitle:otherButtonTitle:data:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo15showCommonErrorFFOS_20NoInternetResultTypeT_T_">showCommonError(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo19showConnectionErrorFT_T_">showConnectionError()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo19showConnectionErrorFFOS_20NoInternetResultTypeT_T_">showConnectionError(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo16showMessageErrorFTSS4textSS8callbackFOS_20NoInternetResultTypeT__T_">showMessageError(_:text:callback:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo16showMessageErrorFTSS4textSS12okButtonTextSS16logoutButtonTextSS8callbackFOS_20NoInternetResultTypeT__T_">showMessageError(_:text:okButtonText:logoutButtonText:callback:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F5Faveo23showMessageInvalidTokenFT_T_">showMessageInvalidToken()</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AddressDelegate.html">AddressDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BottomBarItemDelegate.html">BottomBarItemDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CenterMapOverlayDelegate.html">CenterMapOverlayDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EmptyStateDelegate.html">EmptyStateDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HelperHoursDelegate.html">HelperHoursDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HistoryCellDelegate.html">HistoryCellDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HistoryDelegate.html">HistoryDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HomeDetailDelegate.html">HomeDetailDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoadingIndicatorDelegate.html">LoadingIndicatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MapSearchDelegate.html">MapSearchDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NotificationDelegate.html">NotificationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OrderConfirmationDelegate.html">OrderConfirmationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PartnerDetailDelegate.html">PartnerDetailDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentDelegate.html">PaymentDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReviewDelegate.html">ReviewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ScheduleServicesDelegate.html">ScheduleServicesDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SetHelpersDelegate.html">SetHelpersDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DeviceType.html">DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NotificationType.html">NotificationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Prices.html">Prices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScreenSize.html">ScreenSize</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ClientService</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">ClientService</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Contains the methods for consumption of services.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService6signInFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/signIn(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService6signInFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">signIn(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs login.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">signIn</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService6signUpFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/signUp(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService6signUpFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">signUp(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs register.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">signUp</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService16signWithFacebookFTGVs10DictionarySSSS_8callbackFGSqPs9AnyObject__T__T_"></a>
+                    <a name="//apple_ref/swift/Method/signWithFacebook(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService16signWithFacebookFTGVs10DictionarySSSS_8callbackFGSqPs9AnyObject__T__T_">signWithFacebook(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs login with Facebook data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">signWithFacebook</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">String</span><span class="p">],</span>
+                          <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService11editProfileFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/editProfile(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService11editProfileFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">editProfile(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>For edit user profile.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">editProfile</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                     <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService7profileFTGVs10DictionarySSSS_8callbackFGSqPs9AnyObject__T__T_"></a>
+                    <a name="//apple_ref/swift/Method/profile(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService7profileFTGVs10DictionarySSSS_8callbackFGSqPs9AnyObject__T__T_">profile(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get user profile data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">profile</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">String</span><span class="p">],</span>
+                 <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService7addCardFTGVs10DictionarySSSS_8callbackFGSqPs9AnyObject__T__T_"></a>
+                    <a name="//apple_ref/swift/Method/addCard(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService7addCardFTGVs10DictionarySSSS_8callbackFGSqPs9AnyObject__T__T_">addCard(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>To add a card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">addCard</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">String</span><span class="p">],</span>
+                 <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService10deleteCardFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/deleteCard(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService10deleteCardFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">deleteCard(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>To delete a card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">deleteCard</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                    <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService11defaultCardFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/defaultCard(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService11defaultCardFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">defaultCard(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the default card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">defaultCard</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                     <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService6logoutFTGVs10DictionarySSSS_8callbackFGSqPs9AnyObject__T__T_"></a>
+                    <a name="//apple_ref/swift/Method/logout(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService6logoutFTGVs10DictionarySSSS_8callbackFGSqPs9AnyObject__T__T_">logout(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs user logout.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">logout</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">String</span><span class="p">],</span>
+                <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService11uploadPhotoFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/uploadPhoto(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService11uploadPhotoFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">uploadPhoto(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sends a request with user photo.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">uploadPhoto</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                     <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span><span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService8onDemandFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/onDemand(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService8onDemandFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">onDemand(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the list of ondemand helpmates.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">onDemand</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                  <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService7addressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/address(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService7addressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">address(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns favorite addresses of a user.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">address</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                 <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService14changePasswordFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/changePassword(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService14changePasswordFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">changePassword(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request to change the user&rsquo;s password.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">changePassword</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                        <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService13createAddressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/createAddress(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService13createAddressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">createAddress(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request to create a new address.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">createAddress</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                       <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService13deleteAddressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/deleteAddress(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService13deleteAddressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">deleteAddress(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delete a address.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">deleteAddress</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                       <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService13updateAddressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/updateAddress(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService13updateAddressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">updateAddress(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updated a address.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">updateAddress</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                       <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService17createOnDemandJobFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/createOnDemandJob(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService17createOnDemandJobFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">createOnDemandJob(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request to create a ondemand job.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">createOnDemandJob</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                           <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService18createScheduledJobFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/createScheduledJob(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService18createScheduledJobFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">createScheduledJob(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request to create a Scheduled job.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">createScheduledJob</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                            <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService12validateCodeFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/validateCode(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService12validateCodeFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">validateCode(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Validates a helpmate code.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">validateCode</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                      <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService7historyFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/history(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService7historyFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">history(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the list of past jobs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">history</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                 <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService9cancelJobFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/cancelJob(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService9cancelJobFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">cancelJob(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Cancel a Job.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">cancelJob</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                   <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService16passwordRecoveryFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/passwordRecovery(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService16passwordRecoveryFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">passwordRecovery(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs password recovery.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">passwordRecovery</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                          <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService9jobDetailFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/jobDetail(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService9jobDetailFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">jobDetail(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns job detail information.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">jobDetail</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                   <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService21notificationJobDetailFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/notificationJobDetail(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService21notificationJobDetailFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">notificationJobDetail(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns job detail information.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">notificationJobDetail</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                               <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService13partnerDetailFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/partnerDetail(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService13partnerDetailFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">partnerDetail(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns helpmate detail information.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">partnerDetail</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                       <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService11deviceTokenFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/deviceToken(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService11deviceTokenFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">deviceToken(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Send device token.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">deviceToken</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                     <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService10getAddressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/getAddress(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService10getAddressFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">getAddress(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns nearby address to a coordinate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">getAddress</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                    <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService9deleteJobFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/deleteJob(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService9deleteJobFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">deleteJob(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delete a job.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">deleteJob</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                   <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService12createReviewFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/createReview(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService12createReviewFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">createReview(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request to create a job review.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">createReview</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                      <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC5Faveo13ClientService13validatePromoFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_"></a>
+                    <a name="//apple_ref/swift/Method/validatePromo(_:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC5Faveo13ClientService13validatePromoFTGVs10DictionarySSPs9AnyObject__8callbackFGSqPS2___T__T_">validatePromo(_:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Validate a promotional code.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">validatePromo</span><span class="p">(</span><span class="nv">parameters</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">AnyObject</span><span class="p">],</span>
+                       <span class="nv">callback</span><span class="p">:(</span><span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to send.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The response callback.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="http://www.teclalabs.com" target="_blank" rel="external">TeclaLabs</a>. All rights reserved. (Last updated: 2016-06-24)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
